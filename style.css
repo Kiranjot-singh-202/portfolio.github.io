@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* Navbar */
+#navbar{
+    display: flex;
+    background-color: rgb(214, 243, 243);
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 55px;
+}
+
+#navbar ul{
+    display: flex;
+    margin-left: 40px; 
+    justify-content: flex-end;  
+}
+#navbar ul li{
+    list-style: none;
+    margin: 6px 20px;
+    padding: 5px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #7e22ce;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    margin: 7px 0px;
+    font-weight: bold;
+    
+}
+#navbar ul li a:hover{
+    /* color: white; */
+    /* background-color: black; */
+    text-decoration: underline;
+    padding-top: 1px;
+    margin: 0px 0px;
+}
+
+/* Home */
+
+#home{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family:'Source Code Pro', monospace;
+    height: 55vh;
+    /* background-color: aqua; */
+    padding-top: 65px;
+    color: white;
+}
+#home::before{
+    content: " ";
+    background: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZGRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) no-repeat center center /cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 79vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.hello{
+    font-size: 55px;
+}
+.my-name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.cse{
+    font-size: 35px;
+}
+.cgc{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 6px;
+}
+
+#home img{
+    height: 275px;
+    width: 200px;
+    /* margin-left: 250px; */
+    padding: 0px;
+    border-radius: 100px;
+    border: 2px solid black;
+
+}
+
+/* about me  */
+  
+#about-me{
+    /* background-color: rgb(209 206 206); */
+    font-family: 'Roboto', sans-serif;
+    height: 40vh;
+}
+#about-me::before{
+    content: " ";
+    background: url(https://images.unsplash.com/photo-1528458909336-e7a0adfed0a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80) no-repeat center center /cover;
+    position: absolute;
+    width: 100%;
+    height: 49.1vh;
+    z-index: -2;
+    opacity: 0.7;
+
+}
+#about-me h2{
+    display: block;
+    width: 180px;
+    margin: auto;
+    padding-top: 65px;
+    font-size: 40px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    color: #3915c9;
+    justify-content: center;
+}
+.box{
+    border: 2px solid rgb(84, 4, 4);
+    margin: 30px;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+.box h3{
+    color: rgb(24, 3, 57);
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+
+}
+
+
+/* intrest */
+
+
+#intrest{
+    margin: 10px 0px;
+    padding-top: 55px;
+
+}
+#intrest h2{
+    display: block;
+    width: 347px;
+    margin: auto;
+    font-size: 40px;
+}
+#intrest::before{
+    content: " ";
+    background: url(https://images.unsplash.com/photo-1558470598-a5dda9640f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80) no-repeat center center /cover;
+    position: absolute;
+    height: 39.8vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.hobbies p{
+    margin: 20px 40px;
+    padding: 15px 20px;
+    border: 2px solid rgb(19, 17, 13);
+    border-radius: 20px;
+    color: rgb(14, 14, 14);
+    /* background-color: aquamarine; */
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/* socials */
+
+#socials{
+    height: 22vh;
+    padding-top: 56px;
+    display: block;
+    
+}
+#socials::before{
+    content: " ";
+    background: url(https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxpZ2h0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center /cover ;
+    position: absolute;
+    width: 100%;
+    height: 22vh;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+#socials h2{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    width: 25vw;
+    margin: auto;
+    padding: 5px;
+}
+.accounts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.accounts a{
+    text-decoration: none;
+    margin: 15px 20px;
+    padding: 15px 10px;
+}
+
+.social-img{
+    height: 48px;
+}
+
+/* contact */
+
+#contact{
+    padding: 1px;
+    /* position: relative; */
+}
+#contact::before{
+    content: " ";
+    background: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) no-repeat center center /cover;
+    position: absolute;
+    height: 78vh;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+}
+.form textarea, .form input{
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 1rem;
+    width: 100%;
+
+}
+#contact form{
+    width: 40%;
+}
+#contact label{
+    font-size: 1.5rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+#contact h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.submit{
+    width: 100%;
+    margin: 5px 5px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(14, 35, 35);
+    color: white;
+    height: 14vh;
+    font-weight: bold;
+    
+}
+footer h4{
+    margin: 5px;
+    text-decoration: underline;
+}
+.thanks{
+    margin: 9px;
+}
