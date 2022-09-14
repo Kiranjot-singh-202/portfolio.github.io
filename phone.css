@@ -68,7 +68,7 @@
 
 #intrest h2{
     font-size: 38px;
-    width: 355px;
+    width: 390px;
 }
 .hobbies p{
     margin: 10px 20px;
@@ -77,7 +77,7 @@
     font-weight: bold;
 }
 #intrest::before{
-    height: 43vh;
+    height: 49vh;
 }
 
 
