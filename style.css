@@ -169,6 +169,7 @@ html{
     width: 365px;
     margin: auto;
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 #intrest::before{
     content: " ";
