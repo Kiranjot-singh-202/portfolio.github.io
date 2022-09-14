@@ -1,0 +1,110 @@
+#navbar ul{
+    margin-left: 0px;
+    align-items: center;
+}
+#navbar ul li{
+    margin: 6px 10px;
+    padding: 0px;
+}
+#navbar ul li a{
+    padding: 0px;
+    font-size:15px;
+    font-weight: none;
+}
+
+
+
+#home{
+    display: block;
+    
+}
+.my-info{
+    margin: auto;
+    width: 300px;
+    display: block;
+}
+.hello{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.my-name{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.cse{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.cgc{
+    font-family: 'Source Code Pro', monospace;
+}
+
+#home img{
+    width: 150px;
+    height: 225px;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+#home::before{
+    height: 70vh;
+}
+
+
+.box{
+    margin: 5px;
+    padding: 5px;
+    font-size: 19px;
+    height: 250px;
+    width: 150px;
+
+}
+.box h3{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+
+
+#intrest h2{
+    font-size: 38px;
+    width: 355px;
+}
+.hobbies p{
+    margin: 10px 20px;
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#intrest::before{
+    height: 43vh;
+}
+
+
+
+#socials{
+    height: 18vh;
+}
+#socials h2{
+    width: 89vw;
+}
+#socials::before{
+    height: 18vh;
+}
+
+
+
+.form textarea, .form input{
+    font-size: 0.8rem;
+}
+#contact label{
+    font-size: 1rem;
+}
+#contact::before{
+    height: 63vh;
+}
+
+
+.thanks{
+    margin-top: 13px;
+}
